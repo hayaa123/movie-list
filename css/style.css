@@ -1,0 +1,109 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    width : 1300px;
+    margin: auto;
+
+}
+header{
+    background-color: #39A2DB;
+    height: 100px;
+    width: 1300px;
+    align-items: center;
+}
+
+header div{
+    display: block;
+    padding: 35px 550px;
+}
+header div h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+main{
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+form {
+    margin: auto;
+}
+
+fieldset{
+    width:400px;
+    height: 300px;
+    border: 1px dotted black;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+form div {
+    margin-top: 10px;
+}
+label , input ,select {
+    margin-inline: 5%;
+}
+input {
+    width: 80%;
+    height: 20px;
+}
+select {
+    width: 82%;
+    height: 25px;
+}
+#submit {
+    width: 50px;
+    margin-right: 5px;
+    background-color: #71c7ec;
+}
+button{
+    background-color: #a10909 ;
+}
+#submit ,button {
+    width:70px;
+    height: 30px;
+    border: none;
+}
+footer{
+ background-color: #053742;
+}
+
+#result{
+    margin: auto;
+}
+table{
+    width:500px;
+    
+}
+img{
+    height:50px;
+    width: 50px;
+}
+tr {
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+tr:nth-child(odd){
+   background-color: #A2DBFA; 
+}
+
+tr:nth-child(even){
+
+background-color: #77ACF1;
+}
+
+footer{
+    height: 50px;
+    color:white;
+    align-items: center;
+}
+footer p {
+    margin: 20px 500px;
+}
